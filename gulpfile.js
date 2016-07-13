@@ -1,4 +1,5 @@
 var process = require('process');
+var objectAssign = require('object-assign');
 var gulp = require('gulp');
 var livereload = require('gulp-livereload');
 var browserify = require('browserify');
@@ -30,7 +31,7 @@ var handleErr = function( err ){
 };
 
 var getBrowserified = function( opts ){
-  opts = Object.assign( {
+  opts = objectAssign({
     debug: true,
     cache: {},
     packageCache: {},
