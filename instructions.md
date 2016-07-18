@@ -52,7 +52,7 @@ Suppose we were interested in the human version of the p53 tumor suppressor (Uni
 http://www.uniprot.org/uniprot/P04637
 ```
 
-> Note:  Record contains far more information than we would want in our *GO List*; Your job will be to streamline the data presentation to support our functional requirements.      
+> Note:  This record contains far more information than we would want in our *GO List*; Your job will be to streamline the data presentation to support our functional requirements.      
 
 To retrieve the corresponding record in xml format, simply append `.xml` to the same url
 
