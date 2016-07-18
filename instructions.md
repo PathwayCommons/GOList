@@ -41,7 +41,7 @@ Clone the skeleton [GO List](https://github.com/jvwong/GOList) application from 
   - [`gulpfile.js`](http://gulpjs.com/) - specifying tasks
   - `src` - skeleton source files (.js, .less)  
 
-The skeleton application is merely a suggestion to get you started. You are may alter the contents to suit your needs. We do, however, require that your application be viewable upon opening a supplied  `index.html` file locally in a web browser. This alone should be sufficient to view your *GO List*. The HTML output will be viewed on a desktop in Chrome (v51.0.2074).
+The skeleton application is merely a suggestion to get you started. You may alter the contents to suit your needs. We do, however, require that your application be viewable upon opening a supplied  `index.html` file locally in a web browser. This alone should be sufficient to view your *GO List*. The HTML output will be viewed on a desktop in Chrome (v51.0.2074).
 
 #### UniProt REST API
 Programmatic access to UniprotKB is provided via the [REST API](http://www.uniprot.org/help/programmatic_access). The data corresponding to any UniProt ID can be consumed in a variety of formats. 
