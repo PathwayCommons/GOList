@@ -3,27 +3,32 @@
 
 ## About this Task
 
-We are asking you to implement a simple web application to help us better appreciate your programming and problem-solving skills. The task is intended to be straightforward and should not occupy more than a couple of hours of your time. We appreciate elegance and simplicity.
+We are asking you to implement a simple web application to help us better appreciate your programming and problem-solving skills. The task is intended to be straightforward and should not occupy more than a couple of hours of your time. We appreciate elegance, simplicity, and readability.
+
+## Goal
+The [Gene Ontology](http://geneontology.org/) (GO) project is a collaborative effort to provide consistent descriptions of gene products (e.g. proteins). In particular, GO maintains ontologies that describe molecular function, the biological processes in which a gene product participates, and its location within a cell. 
+
+Biologists are often faced with the task of finding out more information about a particular protein or a list of proteins derived from an experiment. A useful resource is the [UniProt KnowledgeBase](http://www.uniprot.org/help/about) (UniProtKB) which is a manually curated database containing a rich set of annotations for proteins across many species. An appreciation of the functions and processes previously associated with a protein of interest can provide valuable clues about why it might have arisen within an experiment.      
 
 ## Step I: Implement
-You will implement a ‘Grocery List’ application that users will interact with through the web browser. It should collect brief, text-based descriptions of grocery items and display them to the user. The implementation of the Grocery List is completely up to you! To help you along we have included the functional requirements, technical details, and some restrictions.
+You will implement ‘GO List’: An application enabling researchers to retrieve and view GO annotations and other helpful information related to a protein within the UniProt KnowledgeBase. The application will be accessed through a web browser. The GO List implementation is completely up to you! To help you along we have included some basic functional requirements, technical details, and some restrictions.
 
 ### Functional Requirements
-The Grocery List application should:
-  - Accept text submissions of individual grocery items
-  - Keep track of user-submitted items
-  - Display the list of items
-  - Permit deletion of previously submitted items
-  - Permit editing of previously submitted items
-
+GO List should:
+  - Accept valid UniProt identifiers (ID) for individual proteins (e.g. 'P04637') 
+  - Display the GO terms ('Molecular Function' and 'Biological Process') associated with each UniProt ID submitted by users 
+  - Display the list of UniProt IDs submitted by users
+  - Keep track of UniProt IDs submitted by users
+  - Permit users to delete UniProt IDs from the list 
+  
 ### Usability Requirements
-The Grocery List interface should:
-  - Be intuitive (i.e. not require excessive documentation to use)
+The GO List user interface should:
+  - Be intuitive and not require detailed reading of documentation to use
   - Be easy to learn
-  - Provide feedback when appropriate
+  - Give appropriate feedback (e.g. an invalid UniProt ID is entered) 
 
 ### Technical Details
-We have supplied you with a directory named ‘Grocery_List’ containing a skeleton application. Do not alter the name of the parent directory. Inside this directory you will find:
+Clone the GitHub respository for the [GO List](https://github.com/jvwong/GOList) which contains a skeleton application. Inside the GOList directory you will find:
 
   - `index.html` - entrypoint for your Grocery List application
   - `README.md` - for you to document your submission (see Step 2 below)

@@ -1,4 +1,4 @@
-# Grocery List Task
+# GO List
 
 ## Contact
 - Name:
@@ -6,7 +6,7 @@
 - Email:
 
 ## Description
-> Briefly (< 500 words) describe the features and design decisions for your implementation of the *Grocery List*.
+> Briefly (< 500 words) describe the features and design decisions for your implementation of the *UniProt List*.
 
 ## Setup
-> Provide any setup instructions to get the application to run in a web browser.
+> Provide any setup instructions required to get the application (index.html) to run in a web browser.
