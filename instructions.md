@@ -3,7 +3,7 @@
 
 ## About this Task
 
-We are asking you to implement a simple web application to help us better appreciate your programming and problem-solving skills. The task is intended to be straightforward. We appreciate elegance, simplicity and readability.
+We are asking you to implement a simple web application to help us better appreciate your programming and problem-solving skills. The task is intended to be straightforward. We appreciate elegance, simplicity and readability. 
 
 ## Goal
 Biologists are often faced with the task of unearthing information about a particular protein or a list of proteins derived from an experiment. A useful resource is the [UniProt KnowledgeBase](http://www.uniprot.org/help/about) (UniProtKB) which is a manually curated database containing a rich set of annotations for proteins across many species. An appreciation of the functions and processes previously associated with a protein of interest can provide valuable clues about why it might have arisen within the context of an experiment.      
@@ -44,9 +44,9 @@ Clone the skeleton [GO List](https://github.com/jvwong/GOList) application from 
 The skeleton application is merely a suggestion to get you started. You may alter the contents to suit your needs. We do, however, require that your application be viewable upon opening a supplied  `index.html` file locally in a web browser. This alone should be sufficient to view your *GO List*. Please do not write or submit any server-side code for this task. The HTML output will be viewed on a desktop in Chrome (v51.0.2074).
 
 #### UniProt REST API
-Programmatic access to UniprotKB is provided via the [REST API](http://www.uniprot.org/help/programmatic_access). The data corresponding to any UniProt ID can be consumed in a variety of formats. To illustrate this, we consider a case where we desire more information regarding  human p53 [UniProtKB - P04637 (P53_HUMAN)].
+Programmatic access to UniProtKB is provided via the [REST API](http://www.uniprot.org/help/programmatic_access). The data corresponding to any UniProt ID can be consumed in a variety of formats. To illustrate this, we consider a case where we desire more information regarding  human p53 [UniProtKB - P04637 (P53_HUMAN)].
 
-p53 is one of the most intenstively studied genes in the genome. Nearly half of all human malignancies harbour mutations in the p53 gene and disruption of the p53 pathway is common in those lacking direct p53 hits. Four decades of research have established p53 as a tumour suppressor that participates in a broad spectrum of cellular processes such as DNA repair and cell suicide. Nevertheless, a clear understanding of how p53 constrains the emergence of cancer has eluded researchers.   
+p53 is one of the most intensively studied genes in the genome. This great interest has been spurred on by observations that the p53 gene is mutated in nearly half of all human cancers. Four decades of research supports a role for p53 in a wide variety of activities within cells, such as DNA repair and regulating cell division. Nevertheless, a clear understanding of how p53 prevents cancer from arising has been elusive.   
 
 To view the [HTML formatted record](http://www.uniprot.org/uniprot/P04637) for human p53, navigate to
 
@@ -110,7 +110,7 @@ To streamline the submissions, we suggest you respect a few restrictions:
 We have supplied a markdown file (`README.md`) for the purposes of documenting your submission. Edit the contents of this file including the ‘Contact’ details. The ‘Description’ should contain a brief (< 500 words) overview of major features and design decisions. You may also provide comments within your codebase to help us understand the finer details of your app. If necessary, use the ‘Setup’ section for step-by-step instructions on how to get your application ready to run in a browser (e.g. dependencies).
 
 ## <a href="#step3" name="step3">Step 3: Submit</a>
-Zip the directory containing your code submission and associated documentation into a single file. Alternatively, point us to the GitHub repository containing your submission. At a bare minimum, your submission must contain the following two files:
+Zip the directory containing your code submission and associated documentation into a single file. Alternatively, point us to a GitHub repository containing your submission. Your submission must contain the following two files:
 
 1. `index.html`
 2. `README.md`
